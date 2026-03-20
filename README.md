@@ -25,6 +25,7 @@ The Forex Rates API returns comprehensive currency exchange rate information upo
   "status_code": "200",
   "status_message": "SUCCESS",
   "mobicard_txn_reference": "694329793",
+  "mobicard_token_id": "325026456",
   "base_currency": "USD",
   "timestamp": "2026-01-29 16:31:01",
   "forex_rates": {
@@ -280,6 +281,7 @@ The value for the "status" response parameter is always either "SUCCESS" or "FAI
 | `status_code` | **Yes** | HTTP status code | `"200"` |
 | `status_message` | **Yes** | Status description | `"SUCCESS"` |
 | `mobicard_txn_reference` | **Yes** | Your original transaction reference | `"694329793"` |
+| `mobicard_token_id` | **Yes** | Your unique API request id | `"325026456"` |
 | `base_currency` | **Yes** | Base currency used for exchange rates. Options: (USD, EUR, JPY, GBP, CNY). | `"USD"` |
 | `timestamp` | **Yes** | Response timestamp | `"2026-01-29 16:31:01"` |
 | `forex_rates` | **Yes** | Object containing currency pair exchange rates | `{"USDEUR": 0.835547, "USDUSD": 1}` |
